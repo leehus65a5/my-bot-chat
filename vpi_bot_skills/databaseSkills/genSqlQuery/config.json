@@ -1,0 +1,13 @@
+{
+    "schema": 1,
+    "description": "Create SQL to fulfill a user request that will be run against a database configured by the defined schema.",
+    "type": "completion",
+	"completion": {
+     "max_tokens": 1024,
+     "temperature": 0.0,
+     "top_p": 0.0,
+     "presence_penalty": 0.0,
+     "frequency_penalty": 0.0
+     }
+    
+}

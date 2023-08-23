@@ -1,0 +1,223 @@
+START TRANSACTION;
+
+--
+-- Database: `quanlycongty`
+--
+--
+-- Table structure for table `congviec`
+--
+
+CREATE TABLE `congviec` (
+  `MADA` tinyint(4) NOT NULL,
+  `STT` tinyint(4) NOT NULL,
+  `TEN_CONG_VIEC` varchar(50) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `congviec`
+--
+
+INSERT INTO `congviec` (`MADA`, `STT`, `TEN_CONG_VIEC`) VALUES
+(1, 1, 'Thiet ke san pham X');
+
+--
+-- Table structure for table `dean`
+--
+
+CREATE TABLE `dean` (
+  `TENDA` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `MADA` tinyint(4) NOT NULL,
+  `DDIEM_DA` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `PHONG` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `dean`
+--
+
+INSERT INTO `dean` (`TENDA`, `MADA`, `DDIEM_DA`, `PHONG`) VALUES
+('San pham X', 1, 'Vũng Tàu', 5);
+
+--
+-- Table structure for table `diadiem_phg`
+--
+
+CREATE TABLE `diadiem_phg` (
+  `MAPHG` tinyint(4) NOT NULL,
+  `DIADIEM` varchar(15) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `diadiem_phg`
+--
+
+INSERT INTO `diadiem_phg` (`MAPHG`, `DIADIEM`) VALUES
+(1, 'TP HCM');
+
+--
+-- Table structure for table `nhanvien`
+--
+
+CREATE TABLE `nhanvien` (
+  `HONV` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `TENLOT` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `TENNV` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `MANV` varchar(9) COLLATE utf8_unicode_ci NOT NULL,
+  `NGSINH` date NOT NULL,
+  `DCHI` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `PHAI` enum('Nam','Nữ') COLLATE utf8_unicode_ci NOT NULL,
+  `LUONG` float NOT NULL,
+  `MA_NQL` varchar(9) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `PHG` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+INSERT INTO `nhanvien` (`HONV`, `TENLOT`, `TENNV`, `MANV`, `NGSINH`, `DCHI`, `PHAI`, `LUONG`, `MA_NQL`, `PHG`) VALUES
+('Lê', 'Quỳnh ', 'Như', '001', '1967-02-01', '291 Hồ Văn Huê, Tp HCM', 'Nữ', 43000, '006', 4);
+
+--
+-- Table structure for table `phancong`
+--
+
+CREATE TABLE `phancong` (
+  `MA_NVIEN` varchar(9) COLLATE utf8_unicode_ci NOT NULL,
+  `MADA` tinyint(4) NOT NULL,
+  `STT` tinyint(4) NOT NULL,
+  `THOIGIAN` float(5,1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+INSERT INTO `phancong` (`MA_NVIEN`, `MADA`, `STT`, `THOIGIAN`) VALUES
+('001', 20, 1, 15.0),
+
+
+--
+-- Table structure for table `phongban`
+--
+
+CREATE TABLE `phongban` (
+  `TENPHG` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `MAPHG` tinyint(4) NOT NULL,
+  `TRPHG` varchar(9) COLLATE utf8_unicode_ci NOT NULL,
+  `NG_NHANCHUC` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `phongban`
+--
+
+INSERT INTO `phongban` (`TENPHG`, `MAPHG`, `TRPHG`, `NG_NHANCHUC`) VALUES
+('Quản Lý', 1, '006', '1971-06-19'),
+('Điều Hành', 4, '008', '1985-01-01'),
+('Nghiên cứu', 5, '005', '1978-05-22');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `thannhan`
+--
+
+CREATE TABLE `thannhan` (
+  `MA_NVIEN` varchar(9) COLLATE utf8_unicode_ci NOT NULL,
+  `TENTN` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
+  `PHAI` enum('Nam','Nữ') COLLATE utf8_unicode_ci NOT NULL,
+  `NGSINH` date NOT NULL,
+  `QUANHE` varchar(15) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+INSERT INTO `thannhan` (`MA_NVIEN`, `TENTN`, `PHAI`, `NGSINH`, `QUANHE`) VALUES
+('001', 'Minh', 'Nam', '1932-02-29', 'Vợ chồng'),
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `congviec`
+--
+ALTER TABLE `congviec`
+  ADD PRIMARY KEY (`MADA`,`STT`);
+
+--
+-- Indexes for table `dean`
+--
+ALTER TABLE `dean`
+  ADD PRIMARY KEY (`MADA`);
+
+--
+-- Indexes for table `diadiem_phg`
+--
+ALTER TABLE `diadiem_phg`
+  ADD PRIMARY KEY (`MAPHG`,`DIADIEM`);
+
+--
+-- Indexes for table `nhanvien`
+--
+ALTER TABLE `nhanvien`
+  ADD PRIMARY KEY (`MANV`),
+  ADD KEY `fk_nhanvien_phongban` (`PHG`),
+  ADD KEY `fk_self` (`MA_NQL`);
+
+--
+-- Indexes for table `phancong`
+--
+ALTER TABLE `phancong`
+  ADD PRIMARY KEY (`MA_NVIEN`,`MADA`,`STT`),
+  ADD KEY `fk_phancong_congviec` (`MADA`);
+
+--
+-- Indexes for table `phongban`
+--
+ALTER TABLE `phongban`
+  ADD PRIMARY KEY (`MAPHG`),
+  ADD KEY `fk_phongban_nhanvien` (`TRPHG`);
+
+--
+-- Indexes for table `thannhan`
+--
+ALTER TABLE `thannhan`
+  ADD PRIMARY KEY (`MA_NVIEN`,`TENTN`);
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `congviec`
+--
+ALTER TABLE `congviec`
+  ADD CONSTRAINT `fk_congviec_dean` FOREIGN KEY (`MADA`) REFERENCES `dean` (`MADA`);
+
+--
+-- Constraints for table `diadiem_phg`
+--
+ALTER TABLE `diadiem_phg`
+  ADD CONSTRAINT `fk_diadiem_phongban` FOREIGN KEY (`MAPHG`) REFERENCES `phongban` (`MAPHG`);
+
+--
+-- Constraints for table `nhanvien`
+--
+ALTER TABLE `nhanvien`
+  ADD CONSTRAINT `fk_nhanvien_phongban` FOREIGN KEY (`PHG`) REFERENCES `phongban` (`MAPHG`),
+  ADD CONSTRAINT `fk_self` FOREIGN KEY (`MA_NQL`) REFERENCES `nhanvien` (`MANV`);
+
+--
+-- Constraints for table `phancong`
+--
+ALTER TABLE `phancong`
+  ADD CONSTRAINT `fk_phancong_congviec` FOREIGN KEY (`MADA`) REFERENCES `congviec` (`MADA`),
+  ADD CONSTRAINT `fk_phancong_nhanvien` FOREIGN KEY (`MA_NVIEN`) REFERENCES `nhanvien` (`MANV`);
+
+--
+-- Constraints for table `phongban`
+--
+ALTER TABLE `phongban`
+  ADD CONSTRAINT `fk_phongban_nhanvien` FOREIGN KEY (`TRPHG`) REFERENCES `nhanvien` (`MANV`);
+
+--
+-- Constraints for table `thannhan`
+--
+ALTER TABLE `thannhan`
+  ADD CONSTRAINT `fk_thannhan_nhanvien` FOREIGN KEY (`MA_NVIEN`) REFERENCES `nhanvien` (`MANV`);
+COMMIT;

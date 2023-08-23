@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.autopep8"
+		},
+		"python.formatting.provider": "autopep8",
+		"python.analysis.typeCheckingMode": "strict",
+		"vim.smartRelativeLine": true	
+	}
+}

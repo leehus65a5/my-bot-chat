@@ -1,0 +1,647 @@
+{
+    "version": "1.0",
+    "skillName": "chatSkills",
+    "functionName": "classfication",
+    "description": "classification user input is question or update",
+    "filePath": "vpi_bot_skills\\chatSkills\\classfication\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "ngành dầu khí việt nam"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: ngành dầu khí việt nam\r\nOut:",
+                "durationInMilliseconds": 1449.3776,
+                "inputTokens": 230,
+                "outputTokens": 26,
+                "result": " {\"type\":\"question\",\"value\":\"ngành dầu khí việt nam\"}",
+                "textCompletionResult": " {\"type\":\"question\",\"value\":\"ngành dầu khí việt nam\"}"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-002",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-002",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.5,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "sản phẩm dầu thô"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: sản phẩm dầu thô\r\nOut:",
+                "durationInMilliseconds": 1211.8342,
+                "inputTokens": 229,
+                "outputTokens": 1,
+                "result": " question",
+                "textCompletionResult": " question"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "sửa thành 1 + 1 = 0"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: sửa thành 1 + 1 = 0\r\nOut:",
+                "durationInMilliseconds": 1150.2928,
+                "inputTokens": 226,
+                "outputTokens": 13,
+                "result": " {\"type\":\"update\",\"value\":\"1 + 1 = 0\"}",
+                "textCompletionResult": " {\"type\":\"update\",\"value\":\"1 + 1 = 0\"}"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "tìm 10 người có thu nhập cao nhất"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: tìm 10 người có thu nhập cao nhất\r\nOut:",
+                "durationInMilliseconds": 17319.3298,
+                "inputTokens": 242,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "tìm 10 phát minh vĩ đại nhất"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: tìm 10 phát minh vĩ đại nhất\r\nOut:",
+                "durationInMilliseconds": 16854.0332,
+                "inputTokens": 237,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "tìm diện tích thành phố Hà Nội"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: tìm diện tích thành phố Hà Nội\r\nOut:",
+                "durationInMilliseconds": 15956.2381,
+                "inputTokens": 239,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "tìm số người có điểm toán cao nhất"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: tìm số người có điểm toán cao nhất\r\nOut:",
+                "durationInMilliseconds": 18852.7739,
+                "inputTokens": 246,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "tìm thông tin về viện dầu khí"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: tìm thông tin về viện dầu khí\r\nOut:",
+                "durationInMilliseconds": 15487.1033,
+                "inputTokens": 236,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "nhà máy lọc dầu đầu tiên Việt Nam"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: {\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: {\"type\":\"update\",\"value\":\"1 + 1 = 3\"}\r\n\r\nMessage: nhà máy lọc dầu đầu tiên Việt Nam\r\nOut:",
+                "durationInMilliseconds": 17053.347,
+                "inputTokens": 243,
+                "outputTokens": 0
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "công thức tính đạo hàm cấp 2"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: '{\"type\":\"question\",\"value\":\"tìm địa chỉ mua bánh trung thu\"}'\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: '{\"type\":\"update\",\"value\":\"1 + 1 = 3\"}'\r\n\r\nMessage: công thức tính đạo hàm cấp 2\r\nOut:",
+                "durationInMilliseconds": 1422.1806,
+                "inputTokens": 242,
+                "outputTokens": 36,
+                "result": " '{\"type\":\"question\",\"value\":\"công thức tính đạo hàm cấp 2\"}'",
+                "textCompletionResult": " '{\"type\":\"question\",\"value\":\"công thức tính đạo hàm cấp 2\"}'"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "user_input",
+                    "value": "cập nhật thành y = x^3"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: \"{'type':'question','value':'tìm địa chỉ mua bánh trung thu'}\"\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: \"{'type':'update','value':'1 + 1 = 3'}\"\r\n\r\nMessage: cập nhật thành y = x^3\r\nOut:",
+                "durationInMilliseconds": 1010.5805,
+                "inputTokens": 240,
+                "outputTokens": 17,
+                "result": " \"{'type':'update','value':'y = x^3'}\"",
+                "textCompletionResult": " \"{'type':'update','value':'y = x^3'}\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "sửa thành tôi có 10 con mèo"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: \"{'type':'question','value':'tìm địa chỉ mua bánh trung thu'}\"\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: \"{'type':'update','value':'1 + 1 = 3'}\"\r\n\r\nMessage: sửa thành tôi có 10 con mèo\r\nOut:",
+                "durationInMilliseconds": 1132.9929,
+                "inputTokens": 239,
+                "outputTokens": 22,
+                "result": " \"{'type':'update','value':'tôi có 10 con mèo'}\"",
+                "textCompletionResult": " \"{'type':'update','value':'tôi có 10 con mèo'}\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "cập nhật thành Viện dầu khí Việt Nam"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: \"{'type':'question','value':'tìm địa chỉ mua bánh trung thu'}\"\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: \"{'type':'update','value':'1 + 1 = 3'}\"\r\n\r\nMessage: cập nhật thành Viện dầu khí Việt Nam\r\nOut:",
+                "durationInMilliseconds": 1143.6987,
+                "inputTokens": 253,
+                "outputTokens": 30,
+                "result": " \"{'type':'update','value':'Viện dầu khí Việt Nam'}\"",
+                "textCompletionResult": " \"{'type':'update','value':'Viện dầu khí Việt Nam'}\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Out:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "trung thu vào ngày nào?"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types: \r\nSentence Types: question, update \r\n\r\nEMIT WELL FORMED JSON ALWAYS.\r\nBE BRIEF AND TO THE POINT.\r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\nOut: \"{'type':'question','value':'tìm địa chỉ mua bánh trung thu'}\"\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\nOut: \"{'type':'update','value':'1 + 1 = 3'}\"\r\n\r\nMessage: trung thu vào ngày nào?\r\nOut:",
+                "durationInMilliseconds": 1173.0377,
+                "inputTokens": 234,
+                "outputTokens": 25,
+                "result": " \"{'type':'question','value':'trung thu vào ngày nào?'}\"",
+                "textCompletionResult": " \"{'type':'question','value':'trung thu vào ngày nào?'}\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Type:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "cập nhật thành Hà Nội là thành phố của Việt Nam"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types. Only emit types, nothing else:\r\nSentence Types: question, update \r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\n\r\nMessage: cập nhật thành Hà Nội là thành phố của Việt Nam\r\nType:",
+                "durationInMilliseconds": 734.191,
+                "inputTokens": 189,
+                "outputTokens": 1,
+                "result": " update",
+                "textCompletionResult": " update"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message:",
+                    "Type:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "mỏ dầu đầu tiên của Việt Nam"
+                }
+            ],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types. Only emit types, nothing else:\r\nSentence Types: question, update \r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\n\r\nMessage: mỏ dầu đầu tiên của Việt Nam\r\nType:",
+                "durationInMilliseconds": 807.2181,
+                "inputTokens": 175,
+                "outputTokens": 1,
+                "result": " question",
+                "textCompletionResult": " question"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message",
+                    "Type"
+                ]
+            },
+            "variables": [],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types. Only emit types, nothing else:\r\nSentence Types: question, update \r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\n\r\nMessage: \"\"\r\nType:",
+                "durationInMilliseconds": 867.7473,
+                "inputTokens": 147,
+                "outputTokens": 6,
+                "result": "  (No sentence provided)",
+                "textCompletionResult": "  (No sentence provided)"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "Message",
+                    "Type"
+                ]
+            },
+            "variables": [],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types. Only emit types, nothing else:\r\nSentence Types: question, update \r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\n\r\nMessage: \"\"\r\nType:",
+                "durationInMilliseconds": 791.3056,
+                "inputTokens": 147,
+                "outputTokens": 6,
+                "result": "  (No sentence provided)",
+                "textCompletionResult": "  (No sentence provided)"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "User:",
+                    "VPI-ChatBot:"
+                ]
+            },
+            "variables": [],
+            "output": {
+                "prompt": "Please decide a sentence type based on whether it is a interrogative sentence.\r\n\r\nInterrogative sentences are typically marked by inversion of the subject and predicate; that is, the first verb in a verb phrase appears before the subject. \r\n\r\nUse one of the following sentence types. Only emit types, nothing else:\r\nSentence Types: question, update \r\n\r\nExamples\r\nMessage: Tìm địa chỉ mua bánh trung thu\r\nType: question\r\n\r\nMessage: Hãy sửa lại thành 1 + 1 = 3\r\nType: update \r\n\r\nMessage: \"\"\r\nType:",
+                "durationInMilliseconds": 1376.5688,
+                "inputTokens": 147,
+                "outputTokens": 6,
+                "result": "  (No sentence provided)",
+                "textCompletionResult": "  (No sentence provided)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+If the requested OBJECTIVE can be answered by querying a database with tables described in SCHEMA, 
+return list of table name need for query from schemas in json list object
+ANSWER: 
+Otherwise ANSWER: ["No"].
+
+ONLY return json list object nothing else
+
+[Examples]
+SCHEMA:
+Table: company
+Columns:
+	- name: company name
+	- year: company year
+
+Table: employee
+Columns:
+	- name: employee name
+	- age: employee age
+	- adress: adress of employee
+
+OBJECTVIE: tìm số năm thành lập công ty
+
+ANSWER: ["company"]
+[END Examples]
+
+SCHEMA:
+{{$data_schemas}}
+
+OBJECTIVE: {{$data_objective}}
+
+ANSWER: Let's think step by step.

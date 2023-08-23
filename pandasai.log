@@ -1,0 +1,1107 @@
+2023-08-10 09:12:12 [INFO] Running PandasAI with openai LLM...
+2023-08-10 09:12:12 [INFO] Prompt ID: c10f646e-abbc-4bba-8acd-1f05183fb82b
+2023-08-10 09:12:14 [INFO] 
+                        Code generated:
+                        ```
+                        max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+                        ```
+                    
+2023-08-10 09:12:14 [INFO] 
+Code running:
+```
+max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+```
+2023-08-10 09:12:14 [INFO] Answer: 46000056
+2023-08-10 09:12:14 [INFO] Executed in: 2.248502016067505s
+2023-08-10 09:12:38 [INFO] Running PandasAI with openai LLM...
+2023-08-10 09:12:38 [INFO] Prompt ID: 93ddcbc8-2cb1-4266-a8c0-54a5e4deaf18
+2023-08-10 09:12:38 [INFO] Using cached response
+2023-08-10 09:12:38 [INFO] 
+Code running:
+```
+max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+```
+2023-08-10 09:12:38 [INFO] Answer: 46000056
+2023-08-10 09:12:38 [INFO] Executed in: 0.008975982666015625s
+2023-08-10 09:13:06 [INFO] Running PandasAI with openai LLM...
+2023-08-10 09:13:06 [INFO] Prompt ID: c5984db3-d8c0-4362-922b-1931412454c1
+2023-08-10 09:13:06 [INFO] Using cached response
+2023-08-10 09:13:06 [INFO] 
+Code running:
+```
+max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+```
+2023-08-10 09:13:06 [INFO] Answer: 46000056
+2023-08-10 09:13:06 [INFO] Executed in: 0.013130664825439453s
+2023-08-10 09:13:43 [INFO] Question: find sbd have max toan
+2023-08-10 09:13:43 [INFO] Running PandasAI with openai LLM...
+2023-08-10 09:13:43 [INFO] Prompt ID: 1f8a4b1f-4e6f-4c1d-9a98-ed3593fa20f8
+2023-08-10 09:13:44 [INFO] 
+                        Code generated:
+                        ```
+                        max_toan_sbd = df[df['Toan'] == df['Toan'].max()]['sbd'].values[0]
+max_toan_sbd
+                        ```
+                    
+2023-08-10 09:13:44 [INFO] 
+Code running:
+```
+max_toan_sbd = df[df['Toan'] == df['Toan'].max()]['sbd'].values[0]
+max_toan_sbd
+```
+2023-08-10 09:13:44 [INFO] Answer: 46000056
+2023-08-10 09:13:44 [INFO] Executed in: 1.5904834270477295s
+2023-08-10 09:15:53 [INFO] Question: find sbd have max toan
+2023-08-10 09:15:53 [INFO] Running PandasAI with openai LLM...
+2023-08-10 09:15:53 [INFO] Prompt ID: 3c3cf65d-fc12-4f1f-9041-a810fa59e0c9
+2023-08-10 09:15:53 [INFO] Using cached response
+2023-08-10 09:15:53 [INFO] 
+Code running:
+```
+max_toan_sbd = df[df['Toan'] == df['Toan'].max()]['sbd'].values[0]
+max_toan_sbd
+```
+2023-08-10 09:15:53 [INFO] Answer: 46000056
+2023-08-10 09:15:53 [INFO] Executed in: 0.008209228515625s
+2023-08-10 10:00:16 [INFO] Question: find sbd have max toan
+2023-08-10 10:00:16 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:00:16 [INFO] Prompt ID: 3c7ed467-b7dd-4f0a-b87e-75678f614dbc
+2023-08-10 10:00:16 [INFO] Using cached response
+2023-08-10 10:00:16 [INFO] 
+Code running:
+```
+max_toan_sbd = df[df['Toan'] == df['Toan'].max()]['sbd'].values[0]
+max_toan_sbd
+```
+2023-08-10 10:00:16 [INFO] Answer: 46000056
+2023-08-10 10:00:16 [INFO] Executed in: 0.007979154586791992s
+2023-08-10 10:00:29 [INFO] Question: find sbd have max toan
+2023-08-10 10:00:29 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:00:29 [INFO] Prompt ID: b78602c3-5f84-4aa4-a442-07bb771a58ec
+2023-08-10 10:00:29 [INFO] Using cached response
+2023-08-10 10:00:29 [INFO] 
+Code running:
+```
+max_toan_sbd = df[df['Toan'] == df['Toan'].max()]['sbd'].values[0]
+max_toan_sbd
+```
+2023-08-10 10:00:29 [INFO] Answer: 46000056
+2023-08-10 10:00:29 [INFO] Executed in: 0.006982326507568359s
+2023-08-10 10:00:44 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:00:44 [INFO] Prompt ID: 1e3d1676-5639-44e9-8bae-b6ec8faaa5c6
+2023-08-10 10:00:46 [INFO] 
+                        Code generated:
+                        ```
+                        max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+                        ```
+                    
+2023-08-10 10:00:46 [INFO] 
+Code running:
+```
+max_toan = df['Toan'].max()
+sbd_max_toan = df[df['Toan'] == max_toan]['sbd'].values[0]
+sbd_max_toan
+```
+2023-08-10 10:00:46 [INFO] Answer: 46000056
+2023-08-10 10:00:46 [INFO] Executed in: 1.8863348960876465s
+2023-08-10 10:01:23 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:01:23 [INFO] Prompt ID: a910a7a9-781e-4721-a713-3702f7085ad2
+2023-08-10 10:01:24 [INFO] 
+                        Code generated:
+                        ```
+                        top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+                        ```
+                    
+2023-08-10 10:01:24 [INFO] 
+Code running:
+```
+top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+```
+2023-08-10 10:01:24 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:01:24 [INFO] Executed in: 1.8065526485443115s
+2023-08-10 10:01:59 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:01:59 [INFO] Prompt ID: 02095618-25f4-424e-9012-a193b47c4474
+2023-08-10 10:01:59 [INFO] Using cached response
+2023-08-10 10:01:59 [INFO] 
+Code running:
+```
+top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+```
+2023-08-10 10:01:59 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:01:59 [INFO] Executed in: 0.06842708587646484s
+2023-08-10 10:30:12 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:30:12 [INFO] Prompt ID: dc2c5cd3-d5c8-4050-96e0-e005c2acf1e3
+2023-08-10 10:30:12 [INFO] Using cached response
+2023-08-10 10:30:12 [INFO] 
+Code running:
+```
+top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+```
+2023-08-10 10:30:12 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:30:12 [INFO] Executed in: 0.07811522483825684s
+2023-08-10 10:30:40 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:30:40 [INFO] Prompt ID: 6d91e8bd-20a5-4a5e-8924-503f5f4708dd
+2023-08-10 10:30:40 [INFO] Using cached response
+2023-08-10 10:30:40 [INFO] 
+Code running:
+```
+top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+```
+2023-08-10 10:30:40 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:30:40 [INFO] Executed in: 0.06781792640686035s
+2023-08-10 10:30:51 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:30:51 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:30:51 [INFO] Prompt ID: 9035992c-6f8b-4365-870b-8191f07574f8
+2023-08-10 10:30:53 [INFO] 
+                        Code generated:
+                        ```
+                        df.nlargest(10, 'Toan')['sbd']
+                        ```
+                    
+2023-08-10 10:30:53 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:30:53 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:30:53 [INFO] Executed in: 1.8295068740844727s
+2023-08-10 10:31:15 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:31:15 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:31:15 [INFO] Prompt ID: 5230f872-6e59-4282-9e42-604f110381d0
+2023-08-10 10:31:15 [INFO] Using cached response
+2023-08-10 10:31:15 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:31:15 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:31:15 [INFO] Executed in: 0.13374853134155273s
+2023-08-10 10:31:19 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:31:19 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:31:19 [INFO] Prompt ID: 6540dc9e-b58f-42c8-87d2-fc54488b54b4
+2023-08-10 10:31:19 [INFO] Using cached response
+2023-08-10 10:31:19 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:31:19 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:31:19 [INFO] Executed in: 0.13219380378723145s
+2023-08-10 10:31:42 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:31:42 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:31:42 [INFO] Prompt ID: 040c4e73-46f3-469f-b06e-176096dd7909
+2023-08-10 10:31:42 [INFO] Using cached response
+2023-08-10 10:31:42 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:31:42 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:31:42 [INFO] Executed in: 0.1391582489013672s
+2023-08-10 10:31:52 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:31:52 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:31:52 [INFO] Prompt ID: ba0cb335-a3df-4f44-b906-e74ac1530769
+2023-08-10 10:31:52 [INFO] Using cached response
+2023-08-10 10:31:52 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:31:52 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:31:52 [INFO] Executed in: 0.13260912895202637s
+2023-08-10 10:32:01 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:32:01 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:32:01 [INFO] Prompt ID: f6b9b6c4-bb8f-4eef-8ee1-47119462f5b3
+2023-08-10 10:32:01 [INFO] Using cached response
+2023-08-10 10:32:01 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:32:01 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:32:01 [INFO] Executed in: 0.1319887638092041s
+2023-08-10 10:33:18 [INFO] Question: find 10 sbd have max toan
+2023-08-10 10:33:18 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:33:18 [INFO] Prompt ID: a3c75c51-9dcc-45fb-9444-ceeffd757de2
+2023-08-10 10:33:18 [INFO] Using cached response
+2023-08-10 10:33:18 [INFO] 
+Code running:
+```
+df.nlargest(10, 'Toan')['sbd']
+```
+2023-08-10 10:33:18 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:33:18 [INFO] Executed in: 0.12366819381713867s
+2023-08-10 10:33:37 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:33:37 [INFO] Prompt ID: 53df190c-afaf-4c08-a873-ae9bf60ba1d5
+2023-08-10 10:33:37 [INFO] Using cached response
+2023-08-10 10:33:37 [INFO] 
+Code running:
+```
+top_10_sbd_toan_cao_nhat = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd_toan_cao_nhat
+```
+2023-08-10 10:33:37 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-10 10:33:37 [INFO] Executed in: 0.07549285888671875s
+2023-08-10 10:33:50 [INFO] Running PandasAI with openai LLM...
+2023-08-10 10:33:50 [INFO] Prompt ID: a8379ba5-216e-4b50-9b94-dca9748e1e73
+2023-08-10 10:33:52 [INFO] 
+                        Code generated:
+                        ```
+                        top_5_sbd = df.nlargest(5, 'Toan')['sbd']
+top_5_sbd
+                        ```
+                    
+2023-08-10 10:33:52 [INFO] 
+Code running:
+```
+top_5_sbd = df.nlargest(5, 'Toan')['sbd']
+top_5_sbd
+```
+2023-08-10 10:33:52 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+Name: sbd, dtype: int64
+2023-08-10 10:33:52 [INFO] Executed in: 1.5394141674041748s
+2023-08-10 11:07:55 [INFO] 
+Code running:
+```
+top_5_sbd = df.nlargest(5, 'Toan')['sbd']
+top_5_sbd
+```
+2023-08-10 16:01:45 [INFO] Running PandasAI with openai LLM...
+2023-08-10 16:01:45 [INFO] Prompt ID: 22d012e4-1e86-4b82-89ef-f0caf7601528
+2023-08-10 16:01:45 [INFO] Using cached response
+2023-08-10 16:01:45 [INFO] 
+Code running:
+```
+top_5_sbd = df.nlargest(5, 'Toan')['sbd']
+top_5_sbd
+```
+2023-08-10 16:01:45 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+Name: sbd, dtype: int64
+2023-08-10 16:01:45 [INFO] Executed in: 0.09594583511352539s
+2023-08-10 16:02:00 [INFO] Running PandasAI with openai LLM...
+2023-08-10 16:02:00 [INFO] Prompt ID: ae5ad5ed-8741-4e2f-8b49-79768a58b579
+2023-08-10 16:02:02 [INFO] 
+                        Code generated:
+                        ```
+                        top_7_sbd = df.nlargest(7, 'Toan')['sbd']
+top_7_sbd
+                        ```
+                    
+2023-08-10 16:02:02 [INFO] 
+Code running:
+```
+top_7_sbd = df.nlargest(7, 'Toan')['sbd']
+top_7_sbd
+```
+2023-08-10 16:02:02 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+Name: sbd, dtype: int64
+2023-08-10 16:02:02 [INFO] Executed in: 1.841993808746338s
+2023-08-13 09:05:54 [INFO] Running PandasAI with openai LLM...
+2023-08-13 09:05:54 [INFO] Prompt ID: a20db3cd-42db-4404-b616-d7cc77a5928d
+2023-08-13 09:05:54 [INFO] Using cached response
+2023-08-13 09:05:54 [INFO] 
+Code running:
+```
+top_7_sbd = df.nlargest(7, 'Toan')['sbd']
+top_7_sbd
+```
+2023-08-13 09:05:54 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+Name: sbd, dtype: int64
+2023-08-13 09:05:54 [INFO] Executed in: 0.12131595611572266s
+2023-08-13 09:08:45 [INFO] Running PandasAI with openai LLM...
+2023-08-13 09:08:45 [INFO] Prompt ID: bb45ec4b-a979-4c6c-be7b-0e542adeb917
+2023-08-13 09:08:47 [INFO] 
+                        Code generated:
+                        ```
+                        top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+                        ```
+                    
+2023-08-13 09:08:47 [INFO] 
+Code running:
+```
+top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+```
+2023-08-13 09:08:47 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+Name: sbd, dtype: int64
+2023-08-13 09:08:47 [INFO] Executed in: 1.5161421298980713s
+2023-08-13 09:47:38 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1326 request_id=ac9bb74f0a732d3dfeeab1ba885186d3 response_code=200
+2023-08-13 09:52:27 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=765 request_id=eb81ecf5c0a51cedb53a3f36b86117cd response_code=200
+2023-08-13 09:52:52 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1204 request_id=9da991239075e8cffb09563d19336caf response_code=200
+2023-08-13 09:53:07 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1005 request_id=8b4c7724f7dbce84f3c0d5166d6b0bc5 response_code=200
+2023-08-13 13:11:06 [INFO] Running PandasAI with openai LLM...
+2023-08-13 13:11:06 [INFO] Prompt ID: 83a2e83b-43d6-41ac-82bf-8d5039f54257
+2023-08-13 13:11:06 [INFO] Using cached response
+2023-08-13 13:11:06 [INFO] 
+Code running:
+```
+top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+```
+2023-08-13 13:11:06 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+Name: sbd, dtype: int64
+2023-08-13 13:11:06 [INFO] Executed in: 0.08277511596679688s
+2023-08-13 14:42:13 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1639 request_id=83e0b33ed3ef04c52eca145c26b38e9f response_code=200
+2023-08-13 14:55:29 [INFO] Running PandasAI with openai LLM...
+2023-08-13 14:55:29 [INFO] Prompt ID: f35793c9-bd30-4a9d-9bd1-0e216f29cba4
+2023-08-13 14:55:29 [INFO] Using cached response
+2023-08-13 14:55:29 [INFO] 
+Code running:
+```
+top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+```
+2023-08-13 14:55:29 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+Name: sbd, dtype: int64
+2023-08-13 14:55:29 [INFO] Executed in: 0.14463067054748535s
+2023-08-13 14:57:06 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1051 request_id=b3c50b796cdc203f47b846f3087f1e11 response_code=200
+2023-08-13 14:59:52 [INFO] Running PandasAI with openai LLM...
+2023-08-13 14:59:52 [INFO] Prompt ID: 7e201a21-0c1d-41f8-a312-ad24bf01151a
+2023-08-13 14:59:54 [INFO] 
+                        Code generated:
+                        ```
+                        top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+                        ```
+                    
+2023-08-13 14:59:54 [INFO] 
+Code running:
+```
+top_9_sbd = df.nlargest(9, 'Toan')['sbd']
+top_9_sbd
+```
+2023-08-13 14:59:54 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+Name: sbd, dtype: int64
+2023-08-13 14:59:54 [INFO] Executed in: 1.8425328731536865s
+2023-08-13 20:06:05 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=2444 request_id=1ef48c10723a452fa12199c3e672065f response_code=200
+2023-08-13 20:06:05 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:06:05 [INFO] Prompt ID: f94769f3-d862-40f8-9743-c5b3f8e6e812
+2023-08-13 20:07:31 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:07:31 [INFO] Prompt ID: 5db5e688-6c4a-4393-88fa-db554e99adf2
+2023-08-13 20:07:33 [INFO] 
+                        Code generated:
+                        ```
+                        top_9_sbd = df.nlargest(9, 'Van')['sbd']
+top_9_sbd
+                        ```
+                    
+2023-08-13 20:07:33 [INFO] 
+Code running:
+```
+top_9_sbd = df.nlargest(9, 'Van')['sbd']
+top_9_sbd
+```
+2023-08-13 20:07:33 [INFO] Answer: 149017    29029394
+210203    55009659
+210340    55009794
+210353    55009803
+223611    34009156
+325959    37000035
+366362    19007241
+550972    34006800
+645266    29007662
+Name: sbd, dtype: int64
+2023-08-13 20:07:33 [INFO] Executed in: 1.8946442604064941s
+2023-08-13 20:08:43 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1790 request_id=a81ec33bcf4c543d5e064c4b35162e89 response_code=200
+2023-08-13 20:08:43 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:08:43 [INFO] Prompt ID: c1ef5dcf-8742-44ee-9fe6-998533fe7b98
+2023-08-13 20:09:51 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1710 request_id=bb7861c5bb22ba8104e57ae347c2bd70 response_code=200
+2023-08-13 20:09:54 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:09:54 [INFO] Prompt ID: c64fe2f9-c74b-4fa5-b937-16b402f59240
+2023-08-13 20:13:17 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1307 request_id=069cf10912a4387b6c5f383a73272be9 response_code=200
+2023-08-13 20:13:20 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:13:20 [INFO] Prompt ID: 704772cd-55d1-44e0-a262-f07a6bc8e01c
+2023-08-13 20:13:53 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1846 request_id=3f24150bbf250ca7b5e943dc25bb184f response_code=200
+2023-08-13 20:13:58 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:13:58 [INFO] Prompt ID: b16cf21c-6daa-4082-9077-86881561be94
+2023-08-13 20:14:44 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1305 request_id=fcde03e0261bc981da364d28ceaef5a6 response_code=200
+2023-08-13 20:16:55 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1579 request_id=7e0ca9ee989c6e4608b91b2d5d7be2ec response_code=200
+2023-08-13 20:17:58 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:17:59 [INFO] Prompt ID: ddc90dae-4ae0-4621-a695-aaa0e0e2ee2d
+2023-08-13 20:39:33 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:39:33 [INFO] Prompt ID: 8d2d7aef-6e5b-4086-a2b5-bf3ce846b564
+2023-08-13 20:39:44 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:39:44 [INFO] Prompt ID: 0a5c39a6-54b8-46d5-a7ad-2d6494fe58bd
+2023-08-13 20:40:03 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:40:03 [INFO] Prompt ID: 88adc406-17d4-42e6-acd5-85f087d2179c
+2023-08-13 20:40:05 [INFO] 
+                        Code generated:
+                        ```
+                        top_10_sbd = df.nlargest(10, 'Van')['sbd']
+top_10_sbd
+                        ```
+                    
+2023-08-13 20:40:05 [INFO] 
+Code running:
+```
+top_10_sbd = df.nlargest(10, 'Van')['sbd']
+top_10_sbd
+```
+2023-08-13 20:40:05 [INFO] Answer: 149017    29029394
+210203    55009659
+210340    55009794
+210353    55009803
+223611    34009156
+325959    37000035
+366362    19007241
+550972    34006800
+645266    29007662
+690032    29023280
+Name: sbd, dtype: int64
+2023-08-13 20:40:05 [INFO] Executed in: 1.842548131942749s
+2023-08-13 20:41:28 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1386 request_id=7b08a149c451904b3c3ba205969a9d5f response_code=200
+2023-08-13 20:42:16 [INFO] Running PandasAI with openai LLM...
+2023-08-13 20:42:16 [INFO] Prompt ID: abe29133-09bf-443a-924f-b53b55e1f562
+2023-08-13 20:44:05 [INFO] 
+                        Code generated:
+                        ```
+                        top_10_sbd = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd
+                        ```
+                    
+2023-08-13 21:15:04 [INFO] 
+Code running:
+```
+top_10_sbd = df.nlargest(10, 'Toan')['sbd']
+top_10_sbd
+```
+2023-08-13 21:26:39 [INFO] Answer: 136269    46000056
+211674    22008906
+212034    22009272
+260813    19013622
+346036     1068360
+474294     1038637
+489320    15000193
+536635    22004507
+539557    22007440
+614006    45001129
+Name: sbd, dtype: int64
+2023-08-13 21:26:39 [INFO] Executed in: 2663.1308164596558s
+2023-08-13 22:12:33 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=51.8791 request_id=42f77795-efa2-456a-a56b-3e026fb97e8d response_code=200
+2023-08-13 22:12:33 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34558'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'd4553b56-39eb-11ee-9d67-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 22:12:35 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': 'd4553b56-39eb-11ee-9d67-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 15:12:33 GMT'
+2023-08-13 22:14:45 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=34.1508 request_id=030be39d-b688-41a7-af87-ae5d0dff3916 response_code=200
+2023-08-13 22:14:46 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34558'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '232a4fc7-39ec-11ee-b2f7-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 22:14:47 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '232a4fc7-39ec-11ee-b2f7-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 15:14:45 GMT'
+2023-08-13 22:14:47 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162CE47220>
+2023-08-13 22:14:47 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162CE84C40>, 8585.812)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162CE47310>
+2023-08-13 22:17:40 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=31.1998 request_id=0f1d1b5d-6e61-4c91-8aa8-2d8c87254d57 response_code=200
+2023-08-13 22:17:40 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34558'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '8b2eb995-39ec-11ee-86a2-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 22:17:41 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '8b2eb995-39ec-11ee-86a2-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 15:17:40 GMT'
+2023-08-13 23:07:01 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=30.3302 request_id=d57f8e18-338c-4d97-8ea6-5fe00a7571a2 response_code=200
+2023-08-13 23:07:01 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34558'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '6fff8dd9-39f3-11ee-8603-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:07:02 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '6fff8dd9-39f3-11ee-8603-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:07:00 GMT'
+2023-08-13 23:07:33 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D3F82B0>
+2023-08-13 23:07:34 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=31.9175 request_id=4abda031-df67-4e10-94ff-6e3eb970c5c3 response_code=200
+2023-08-13 23:07:34 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34558'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '83f502b7-39f3-11ee-86fb-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:07:35 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '83f502b7-39f3-11ee-86fb-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:07:34 GMT'
+2023-08-13 23:07:36 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D413580>
+2023-08-13 23:07:36 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D4FE5C0>, 11754.64)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D413610>
+2023-08-13 23:16:16 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=38.3076 request_id=1fb42fa2-5d88-49ad-8953-1c68210bd58e response_code=200
+2023-08-13 23:16:16 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('history-pvn')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'bac3831b-39f4-11ee-9b6d-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:16:17 [INFO] Response status: 200
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Content-Type': 'application/json; odata.metadata=none; odata.streaming=true; charset=utf-8'
+    'Content-Encoding': 'REDACTED'
+    'Vary': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'Preference-Applied': 'REDACTED'
+    'OData-Version': 'REDACTED'
+    'request-id': 'bac3831b-39f4-11ee-9b6d-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:16:16 GMT'
+2023-08-13 23:17:27 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=31.47 request_id=c29f4a1e-020b-4661-b323-a1c8688cbdf1 response_code=200
+2023-08-13 23:17:27 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'e4e82d5f-39f4-11ee-b813-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:17:28 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': 'e4e82d5f-39f4-11ee-b813-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:17:26 GMT'
+2023-08-13 23:17:28 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D1292A0>
+2023-08-13 23:17:28 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D558280>, 12346.781)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D12A2C0>
+2023-08-13 23:17:28 [ERROR] Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000002162D129E40>
+transport: <_SelectorSocketTransport closing fd=2748>
+Traceback (most recent call last):
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\IPython\core\interactiveshell.py", line 3508, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\clone\AppData\Local\Temp\ipykernel_20272\2084218150.py", line 3, in <module>
+    result = search2.invoke(context= context)
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 365, in invoke
+    return self._runThread(self._invoke_native_async(context))
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 556, in _runThread
+    return result[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2023-08-13 23:18:28 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=29.9183 request_id=5c34b0f6-62b5-4bb8-ad2a-4cadfd7e4acd response_code=200
+2023-08-13 23:18:28 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '099a1d12-39f5-11ee-be9a-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:18:29 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '099a1d12-39f5-11ee-be9a-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:18:28 GMT'
+2023-08-13 23:20:21 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D11C730>
+2023-08-13 23:20:21 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D589000>, 12408.421)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D11C610>
+2023-08-13 23:20:21 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162CE44FA0>
+2023-08-13 23:20:21 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D412890>
+2023-08-13 23:20:33 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=30.9905 request_id=3b48b2ef-a138-4495-8797-3ce84938102d response_code=200
+2023-08-13 23:20:33 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '53c98f73-39f5-11ee-a23d-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:20:34 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '53c98f73-39f5-11ee-a23d-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:20:33 GMT'
+2023-08-13 23:20:34 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D2B6050>
+2023-08-13 23:20:34 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D58BE80>, 12532.89)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D2B75B0>
+2023-08-13 23:20:34 [ERROR] Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000002162CC02590>
+transport: <_SelectorSocketTransport closing fd=2500>
+Traceback (most recent call last):
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\IPython\core\interactiveshell.py", line 3508, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\clone\AppData\Local\Temp\ipykernel_20272\2084218150.py", line 3, in <module>
+    result = search2.invoke(context= context)
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 365, in invoke
+    return self._runThread(self._invoke_native_async(context))
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 556, in _runThread
+    return result[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2023-08-13 23:21:52 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=33.0956 request_id=9fd34065-7a70-467c-8474-a030daba78d4 response_code=200
+2023-08-13 23:21:52 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': '833363e9-39f5-11ee-a96b-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:21:53 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': '833363e9-39f5-11ee-a96b-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:21:52 GMT'
+2023-08-13 23:21:53 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D6511B0>
+2023-08-13 23:21:53 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D6547C0>, 12612.484)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D650610>
+2023-08-13 23:21:53 [ERROR] Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000002162D653C40>
+transport: <_SelectorSocketTransport closing fd=2836>
+Traceback (most recent call last):
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\IPython\core\interactiveshell.py", line 3508, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\clone\AppData\Local\Temp\ipykernel_20272\2084218150.py", line 3, in <module>
+    result = search2.invoke(context= context)
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 365, in invoke
+    return self._runThread(self._invoke_native_async(context))
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 556, in _runThread
+    return result[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2023-08-13 23:24:40 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=32.5592 request_id=7ede9483-2cdf-4c34-bf7d-d42488780d7e response_code=200
+2023-08-13 23:24:40 [INFO] Request URL: 'https://vpi-search.search.windows.net/indexes('generic')/docs/search.post.search?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'Content-Type': 'application/json'
+    'Content-Length': '34508'
+    'api-key': 'REDACTED'
+    'Accept': 'application/json;odata.metadata=none'
+    'x-ms-client-request-id': 'e780a66e-39f5-11ee-b033-0c7a15db50e1'
+    'User-Agent': 'azsdk-python-search-documents/11.4.0b6 Python/3.10.11 (Windows-10-10.0.19045-SP0)'
+A body is sent with the request
+2023-08-13 23:24:42 [INFO] Response status: 404
+Response headers:
+    'Content-Length': '93'
+    'Content-Type': 'application/json; charset=utf-8'
+    'Content-Language': 'REDACTED'
+    'Server': 'Microsoft-IIS/10.0'
+    'Strict-Transport-Security': 'REDACTED'
+    'request-id': 'e780a66e-39f5-11ee-b033-0c7a15db50e1'
+    'elapsed-time': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'Date': 'Sun, 13 Aug 2023 16:24:40 GMT'
+2023-08-13 23:27:47 [ERROR] Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000002162D7C08B0>
+transport: <_SelectorSocketTransport closing fd=2940>
+Traceback (most recent call last):
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\IPython\core\interactiveshell.py", line 3508, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "C:\Users\clone\AppData\Local\Temp\ipykernel_20272\2084218150.py", line 3, in <module>
+    result = search2.invoke(context= context)
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 365, in invoke
+    return self._runThread(self._invoke_native_async(context))
+  File "d:\SOFTWARE\Python310\env\msbot\lib\site-packages\semantic_kernel\orchestration\sk_function.py", line 556, in _runThread
+    return result[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 924, in write
+    n = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\SOFTWARE\Python310\lib\asyncio\sslproto.py", line 690, in _process_write_backlog
+    self._transport.write(chunk)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 930, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 725, in _fatal_error
+    self._force_close(exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\selector_events.py", line 737, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 753, in call_soon
+    self._check_closed()
+  File "D:\SOFTWARE\Python310\lib\asyncio\base_events.py", line 515, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2023-08-13 23:27:47 [ERROR] Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002162D7C24D0>
+2023-08-13 23:27:47 [ERROR] Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x000002162D6826E0>, 12780.703)]']
+connector: <aiohttp.connector.TCPConnector object at 0x000002162D7C27A0>
+2023-08-22 12:24:20 [INFO] HTTP Request: GET https://254f22e4-29d9-41fc-8a88-e74d79bc7083.ap-northeast-1-0.aws.cloud.qdrant.io:6333/collections "HTTP/2 200 OK"
+2023-08-22 12:24:22 [INFO] message='OpenAI API response' path=https://vpi-openai.openai.azure.com//openai/deployments/ada-embedding/embeddings?api-version=2022-12-01 processing_ms=None request_id=None response_code=401
+2023-08-22 12:24:22 [INFO] error_code=401 error_message='Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.' error_param=None error_type=None message='OpenAI API error received' stream_error=False
+2023-08-22 12:27:16 [INFO] HTTP Request: GET https://254f22e4-29d9-41fc-8a88-e74d79bc7083.ap-northeast-1-0.aws.cloud.qdrant.io:6333/collections "HTTP/2 200 OK"
+2023-08-22 12:27:17 [INFO] message='OpenAI API response' path=https://api.openai.com/v1/embeddings processing_ms=50 request_id=3ef30d81b46b2fcd42bb246db3ec4f48 response_code=200
+2023-08-22 12:27:17 [INFO] HTTP Request: POST https://254f22e4-29d9-41fc-8a88-e74d79bc7083.ap-northeast-1-0.aws.cloud.qdrant.io:6333/collections/my_collection/points/search "HTTP/2 200 OK"

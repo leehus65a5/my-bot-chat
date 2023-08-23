@@ -1,0 +1,21 @@
+You are provided a history chat.
+
+The user's request to update a memory text. 
+
+Find and return the latest ID in the memory that is related to the user's update information. If the history doesn't have any memory text or if the memory text isn't strongly related to the user's update, simply return False
+
+Examples:
+Memory text: Công thức tính hình thang là 7 + 3 = 10
+Memory id: 'dt_1'
+User update: Công thức là 7 - 2 = 5
+Out: dt_1
+
+Memory text: Diện tích Hà Nội là 2000km2
+Memory id: 'ds_1'
+User update: Việt Nam có 63 tỉnh thành.
+Out: False
+
+{{$history}}
+
+User update:{{$user_input}}
+Out:

@@ -1,0 +1,166 @@
+{
+    "version": "1.0",
+    "skillName": "chatSkills",
+    "functionName": "basicChat",
+    "description": "Chat with the AI",
+    "filePath": "vpi_bot_skills\\chatSkills\\basicChat\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "User:",
+                    "VPI-ChatBot:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "history",
+                    "value": ""
+                },
+                {
+                    "key": "user_input",
+                    "value": "tìm người khỏe nhất thế giới"
+                }
+            ],
+            "output": {
+                "prompt": "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.Its name is VPI-ChatBot.\r\nVPI-ChatBot can read and write the answer in VietNamese as well as neative speaker.\r\nuser input usually in VietNamese.\r\nVPI-ChatBot should always reply by explaining new concepts in simple terms concepts to user. \r\n\r\n\r\n\r\nUser: tìm người khỏe nhất thế giới\r\nVPI-ChatBot: ",
+                "durationInMilliseconds": 6623.2391,
+                "inputTokens": 130,
+                "outputTokens": 279,
+                "result": " Người khỏe nhất thế giới là người có sức khỏe tốt nhất. Điều này có nghĩa là họ có thể thực hiện các hoạt động thể chất và tinh thần một cách tốt nhất. Họ cũng có thể đạt được sự cân bằng giữa các yếu tố của sức khỏe, bao gồm cả thể chất, tinh thần và cả sức khỏe tâm thần.",
+                "textCompletionResult": " Người khỏe nhất thế giới là người có sức khỏe tốt nhất. Điều này có nghĩa là họ có thể thực hiện các hoạt động thể chất và tinh thần một cách tốt nhất. Họ cũng có thể đạt được sự cân bằng giữa các yếu tố của sức khỏe, bao gồm cả thể chất, tinh thần và cả sức khỏe tâm thần."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "User:",
+                    "VPI-ChatBot:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "history",
+                    "value": "Tìm cho tôi 10 người khỏe nhất thế giới"
+                },
+                {
+                    "key": "user_input",
+                    "value": "tìm cho tôi 100 nguwiof khỏe nhất thế giới"
+                }
+            ],
+            "output": {
+                "prompt": "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.Its name is VPI-ChatBot.\r\nVPI-ChatBot can read and write the answer in VietNamese as well as neative speaker.\r\nuser input usually in VietNamese.\r\nVPI-ChatBot should always reply by explaining new concepts in simple terms concepts to user. \r\n\r\nTìm cho tôi 10 người khỏe nhất thế giới\r\n\r\nUser: tìm cho tôi 100 nguwiof khỏe nhất thế giới\r\nVPI-ChatBot: ",
+                "durationInMilliseconds": 6273.4337,
+                "inputTokens": 171,
+                "outputTokens": 247,
+                "result": " Rất tiếc, tôi không thể cung cấp cho bạn danh sách 100 người khỏe nhất thế giới. Tuy nhiên, tôi có thể cung cấp cho bạn danh sách 10 người khỏe nhất thế giới. Đây là những người có thể giúp bạn tạo ra một cuộc sống khỏe mạnh hơn: Usain Bolt, Novak Djokovic, Roger Federer, Cristiano Ronaldo, LeBron James, Serena Williams, Michael Phelps, Simone Biles, Katie Ledecky và Mo Farah.",
+                "textCompletionResult": " Rất tiếc, tôi không thể cung cấp cho bạn danh sách 100 người khỏe nhất thế giới. Tuy nhiên, tôi có thể cung cấp cho bạn danh sách 10 người khỏe nhất thế giới. Đây là những người có thể giúp bạn tạo ra một cuộc sống khỏe mạnh hơn: Usain Bolt, Novak Djokovic, Roger Federer, Cristiano Ronaldo, LeBron James, Serena Williams, Michael Phelps, Simone Biles, Katie Ledecky và Mo Farah."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-4",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-4",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "User:",
+                    "VPI-ChatBot:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "history",
+                    "value": ""
+                },
+                {
+                    "key": "user_input",
+                    "value": "tìm cho tôi người khỏe nhất thế giới"
+                }
+            ],
+            "output": {
+                "prompt": "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.Its name is VPI-ChatBot.\r\nVPI-ChatBot can read and write the answer in VietNamese as well as neative speaker.\r\nuser input usually in VietNamese.\r\nVPI-ChatBot should always reply by explaining new concepts in simple terms concepts to user. \r\n\r\n\r\n\r\nUser: tìm cho tôi người khỏe nhất thế giới\r\nVPI-ChatBot: ",
+                "durationInMilliseconds": 16922.2095,
+                "inputTokens": 110,
+                "outputTokens": 178,
+                "result": "Việc xác định người khỏe nhất thế giới không dễ dàng vì có nhiều yếu tố khác nhau để xem xét, bao gồm sức mạnh, sức chịu đựng, sức bền, và khả năng phục hồi. Tuy nhiên, một số người được coi là những người khỏe nhất thế giới bao gồm các vận động viên Olympic, vận động viên thể hình chuyên nghiệp, và những người đã phá vỡ các kỷ lục thế giới về sức mạnh và sức bền.",
+                "chatCompletionResult": "Việc xác định người khỏe nhất thế giới không dễ dàng vì có nhiều yếu tố khác nhau để xem xét, bao gồm sức mạnh, sức chịu đựng, sức bền, và khả năng phục hồi. Tuy nhiên, một số người được coi là những người khỏe nhất thế giới bao gồm các vận động viên Olympic, vận động viên thể hình chuyên nghiệp, và những người đã phá vỡ các kỷ lục thế giới về sức mạnh và sức bền."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "text-davinci-003",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "text-davinci-003",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "text-completion"
+            },
+            "requestSettings": {
+                "temperature": 0.9,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 2000,
+                "stopSequences": [
+                    "User:",
+                    "VPI-ChatBot:"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "history",
+                    "value": ""
+                },
+                {
+                    "key": "user_input",
+                    "value": "Hà Nội có bao nhiêu quận?"
+                }
+            ],
+            "output": {
+                "prompt": "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.Its name is VPI-ChatBot.\r\nVPI-ChatBot can read and write the answer in VietNamese as well as neative speaker.\r\nuser input usually in VietNamese.\r\nVPI-ChatBot should always reply by explaining new concepts in simple terms concepts to user. \r\n\r\n\r\n\r\nUser: Hà Nội có bao nhiêu quận?\r\nVPI-ChatBot: ",
+                "durationInMilliseconds": 3985.4938,
+                "inputTokens": 119,
+                "outputTokens": 187,
+                "result": " Hà Nội có 18 quận và 8 huyện. Quận đó bao gồm: Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Đống Đa, Tây Hồ, Cầu Giấy, Thanh Xuân, Hoàng Mai, Long Biên, Bắc Từ Liêm, Nam Từ Liêm, Thanh Trì, Gia Lâm, Đông Anh, Sóc Sơn, Hà Đông, Quốc Oai và Thạch Thất.",
+                "textCompletionResult": " Hà Nội có 18 quận và 8 huyện. Quận đó bao gồm: Ba Đình, Hoàn Kiếm, Hai Bà Trưng, Đống Đa, Tây Hồ, Cầu Giấy, Thanh Xuân, Hoàng Mai, Long Biên, Bắc Từ Liêm, Nam Từ Liêm, Thanh Trì, Gia Lâm, Đông Anh, Sóc Sơn, Hà Đông, Quốc Oai và Thạch Thất."
+            }
+        }
+    ]
+}
