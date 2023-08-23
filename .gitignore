@@ -1,4 +1,4 @@
 .env
-.test_database.ipynb
-.test_fucntion.py
-.test-bot-config.ipynb
+test_database.ipynb
+test_fucntion.py
+test-bot-config.ipynb
